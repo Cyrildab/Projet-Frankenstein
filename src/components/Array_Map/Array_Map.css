@@ -1,0 +1,70 @@
+.animal_card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 6px groove rgba(102, 80, 255, 0.62);
+  background: rgb(201, 165, 219);
+  background: linear-gradient(
+    133deg,
+    rgba(201, 165, 219, 1) 15%,
+    rgba(131, 186, 217, 0.6420047732696897) 46%,
+    rgba(206, 110, 215, 1) 71%
+  );
+  border-radius: 1rem;
+  margin: 1rem;
+  box-shadow: 10px 12px 22px 0px rgba(0, 0, 0, 0.58);
+  -webkit-box-shadow: 10px 12px 22px 0px rgba(0, 0, 0, 0.58);
+  -moz-box-shadow: 10px 12px 22px 0px rgba(0, 0, 0, 0.58);
+  padding: 1rem;
+}
+.animal_picture {
+  width: 17rem;
+  border-radius: 1rem;
+  margin: 1rem;
+  box-shadow: 10px 12px 22px 0px rgba(0, 0, 0, 0.58);
+  -webkit-box-shadow: 10px 12px 22px 0px rgba(0, 0, 0, 0.58);
+  -moz-box-shadow: 10px 12px 22px 0px rgba(0, 0, 0, 0.58);
+  border: 4px solid purple;
+}
+
+.animal_name {
+  box-shadow: 8px 13px 19px -7px #276873;
+  background: linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+  background-color: #599bb3;
+  border-radius: 29px;
+  display: inline-block;
+  cursor: pointer;
+  color: aquamarine;
+  font-family: Arial;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 0.1rem 1rem;
+  text-decoration: none;
+  text-shadow: 2px 4px 3px #3d768a;
+  /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 4rem;
+  color:purple;
+  box-shadow: 10px 12px 22px 0px rgba(0, 0, 0, 0.58);
+  -webkit-box-shadow: 10px 12px 22px 0px rgba(0, 0, 0, 0.58);
+  -moz-box-shadow: 10px 12px 22px 0px rgba(0, 0, 0, 0.58);
+  border-radius: 1rem;
+  border:0.1rem solid goldenrod;
+  padding: 1rem;
+  margin: 1rem; */
+}
+
+.animal_name:hover {
+  background: linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+  background-color: #408c99;
+}
+.animal_name:active {
+  position: relative;
+  top: 1px;
+}
+
+.animal_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
