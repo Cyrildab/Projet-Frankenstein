@@ -1,12 +1,14 @@
 import "./App.css";
+import Array_Map from "./components/Array_Map/Array_Map";
 import Counter from "./components/Counter/Counter";
 import PicturesTable from "./components/PicturesTable/PicturesTable";
 
 function App() {
   return (
   <>
-  <Counter />,
-  <PicturesTable />
+    <Counter />;
+    <Array_Map />;
+    <PicturesTable />
   </>
   )
 }
