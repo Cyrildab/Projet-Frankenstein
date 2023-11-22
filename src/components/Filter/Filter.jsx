@@ -1,5 +1,3 @@
-import "./filter.css";
-
 function Filter() {
   const Foodlist = [
     { id: 1, name: "Mafé", complexity: 3, taste: 6 },
